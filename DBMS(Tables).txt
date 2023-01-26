@@ -1,0 +1,65 @@
+create table Product_Master
+(Product_no varchar2(6), 
+Description varchar2(15),
+Profit_percentage number(4,2),
+Unit_measure varchar2(10), 
+Qty_on_hand number(8),
+Reorder_lvl number (8),
+sell_price number (8,2),
+cost_price number(8,2));
+
+insert into Product__Master
+(Product_no,Description,Profit _percentage,Unit_measure,Qty_on_hand,Reorder_lvl,sell_price,cost_price)
+values('p00001','1.44Floppies',5,'Piece',100,20,525,500)
+values('p03453','Monitors',6,'Piece',10,3,12000,11280)
+values('p06734','Mouse',5,'Piece',20,5,1050,1000)
+values('p07865','1.22floppies',5,'Piece',100,20,525,500)
+values('p07866','Keyboard',2,'Piece',10,3,3150,3050)
+values('p07885','CD Drive',2.5,'Piece',10,3,5250,5100)
+values('p07965','540HDD',4,'Piece',10,3,8400,8000)
+values('p07975','1,44Drive',5,'Piece',10,3,1050,1000)
+values('p08865','1.22Drive',5,'Piece',2,3,1050,1000)
+
+--------------X----------------------x----------------------x---------------------------x---------------------
+
+create table sales_master
+(salesman_no varchar2(6), 
+salesman_name varchar2(20), 
+address1 varchar2(30), 
+address2 varchar2(30), 
+city varchar2(20), 
+pincode number (8), 
+state varchar(20), 
+sal_amt number(8,2), 
+tgt_to_get number(6,2), 
+ytd sales number(6,2), 
+remarks varchar2(60));
+
+insert into sales master
+
+(sales_no, sales_name, address1, address2, city, pincode, state, sal_amt, tgt_to_get, ytd_sales)
+
+values('s00001' 'kiran', 'a/14', 'worli', 'bombay', 400002, 'maharastra', 3000, 100, 50) 
+values('s00002, 'manish', 65, 'nariman', 'bombay', 400001, 'maharastra',3000, 200, 100)
+values('s00003', 'ravi', 'p-7', 'bandra", 'bombay', 400032, 'maharastra', 3000, 100, 100) 
+values('s00004', 'ashish', 'a/5, 'juhu', 'bombay', 400044, 'maharastra',3500, 100, 150)
+---------------x------------------x----------------x---------------x----------------x------------
+
+create table client_master
+(client_no varchar(6),
+name varchar(20),
+address1 varchar(30),
+address2 varchar(30),
+city varchar(15),
+pincode number(8),
+state varchar(15),
+bal_due number(10,2));
+
+insert into client_master
+(client_no,name,city,pincode,state,bal_due)
+values('c00001','ivan bayross','bombay',400054,' maharashtra' ,15000)
+values('c00002','vandana saitwal','madras',780001,' ' ,0)
+values('c00003','pramada jagusta','bombay',400054,' maharashtra',5000)
+values('c00004','basu navindgi','bombay',400054,' maharashtra',0)
+values('c00005','ravi sreedharan','delhi',100001,' ',2000)
+values('c00006','rukmini','bombay',400054,' maharashtra',0)
