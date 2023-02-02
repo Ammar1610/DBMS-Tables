@@ -1,0 +1,73 @@
+Question 1:
+1.	select name from client_master;
+ 
+
+2.	select * from client_master;
+ 
+
+3.	select name,city from client_master;
+ 
+
+4.	select description from product__master;
+ 
+
+5.	select name from client_master where city="bombay";
+ 
+
+
+
+6.	select salesman_name from sales_master where sal_amt=3000;
+ 
+
+
+Question 2:
+1.	update client_master set city="bombay" where client_no="C00005”;
+ 
+
+2.	update client_master set bal_due=1000 where client_no ="C00001";
+ 
+
+3.	update product__master set cost_price = 950.00 where description="1.22Floppies";
+ 
+
+4.	update sales_master set city="Mumbai";
+ 
+
+
+
+
+Question 3:
+1.	delete from sales_master where sal_amt=3500;
+ 
+
+2.	delete from product__master where Qty_on_hand=100;
+ 
+
+3.	delete from  client_master where state="tamil nadu";
+ 
+
+Question 4:
+1.	alter table client_master  add(telephone numeric(10));
+ 
+
+2.	alter table product__master modify sell_price numeric(10,2);
+ 
+Question 5:
+1.	drop table client_master;
+
+2.	alter table sales_master rename to sman_mast;
+
+ 
+
+
+
+
+
+
+Question 5:
+1.	drop table client_master;
+
+2.	alter table sales_master rename to sman_mast;
+
+ 
+
