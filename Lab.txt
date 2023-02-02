@@ -14,8 +14,6 @@ Question 1:
 5.	select name from client_master where city="bombay";
  
 
-
-
 6.	select salesman_name from sales_master where sal_amt=3000;
  
 
@@ -32,8 +30,6 @@ Question 2:
 
 4.	update sales_master set city="Mumbai";
  
-
-
 
 
 Question 3:
