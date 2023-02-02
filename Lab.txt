@@ -31,7 +31,6 @@ Question 2:
 4.	update sales_master set city="Mumbai";
  
 
-
 Question 3:
 1.	delete from sales_master where sal_amt=3500;
  
@@ -60,10 +59,7 @@ Question 5:
 
 
 
-Question 5:
-1.	drop table client_master;
 
-2.	alter table sales_master rename to sman_mast;
 
  
 
